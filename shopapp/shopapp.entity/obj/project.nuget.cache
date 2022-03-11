@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "m49YnSx0fIdGb7QTCx9G/BjUQro9EY3xgM7qqOE66rR9H7UJX+sutZuL++JW8gYwObm3Hxk89G3ml3dboY+i3Q==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Emin\\Desktop\\Google\\shopapp\\shopapp.entity\\shopapp.entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Emin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Emin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

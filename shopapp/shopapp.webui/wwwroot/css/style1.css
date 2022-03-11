@@ -1,0 +1,86 @@
+.h-middle{
+    position: relative;
+    margin: auto;
+    margin-top: 1%;
+    width: 80%;
+    height: 35vh;
+    background: rgba(0, 0, 0, 0.5);
+
+    background-size: cover;
+    animation: 1s animate;
+}
+.slider{
+    position: absolute;
+    height: 35vh;
+    overflow: hidden;
+    width: 100%;
+    animation: 1s animate;
+    background-color: #fff;
+}
+
+.slide{
+    width: 25%;
+    float: left;
+}
+.slide img{
+    object-fit:contain;
+    width: 100%;
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+.figure{
+    position: relative;
+    width: 400%;
+    margin: 0;
+    transition: 0.5s;
+    left: 0%;
+}
+input[name="r"]{
+    position:absolute;
+    visibility:hidden;
+}
+.radio{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    margin-left: 1.5vh;
+    width: 10vh;
+    left: 50%;
+    top: 95%;
+    transform:translate(-50%);
+}
+.radioi{
+    margin: 0;
+    display: block;
+    height: 1vh;
+    width: 100%;
+    margin: 5px;
+    background-color: #0c5cd3;
+    accent-color: rgb(45, 64, 88);
+    opacity: 0.5;
+}
+.radioi:hover{
+    opacity: 0.8;
+}
+@keyframes animate {
+    from{
+        opacity: 0;
+        height: 0;
+    }
+    to{
+        opacity: 1;
+        height: 35vh;
+    }
+}
+.read-me{
+    margin-left: 1rem;
+    font-size: 13px;
+    position: relative;
+    left: 50%;
+    top: 55%;
+    transform:translate(-50%);
+    
+}
